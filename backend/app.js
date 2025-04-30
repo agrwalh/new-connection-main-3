@@ -60,6 +60,4 @@ app.delete('/users/:id',async(req,res) => {
 })
 
 
-app.listen(process.env.PORT || 9000,()=>{
-    console.log('Server is running on port 9000')
-});
+app.listen(process.env.PORT || 9000);
